@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace Bookinist
 {
-    class Program
+    public class Program
     {
         [STAThread]
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             var app = new App();
             app.InitializeComponent();
