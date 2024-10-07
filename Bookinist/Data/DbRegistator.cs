@@ -30,6 +30,7 @@ namespace Bookinist.Data
                         opt.UseInMemoryDatabase("Bookinist.db");
                         break;
                 }
-            });
+            })
+            .AddTransient<DbInitializer>();
     }
 }
